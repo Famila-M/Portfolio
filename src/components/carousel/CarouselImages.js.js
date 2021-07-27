@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, {Component} from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import classes from './CarouselImages.module.css'
@@ -8,19 +7,17 @@ import {GoProject} from 'react-icons/go'
 import {FaArrowCircleDown} from 'react-icons/fa'
 import Hello from '../images/Hello.jpg'
 import Pencil from '../images/Pencil.jpg'
-import laptop1 from '../images/laptop1.jpg'
 
  class CarouselImages extends Component {
      render(){
     return (
         <div className={classes.carousel_container} id="start">
-                {/* <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible ={true}> */}
             <Carousel className={classes.carousel} dynamicHeight infiniteLoop={true} interval={6000} useKeyboardArrows={true} transitionTime={1700} emulateTouch showArrows={false} autoPlay  showStatus={false} showThumbs={false} >
                 <div  className={classes.image_container} >
                     <img className={classes.image} src={Hello}  alt="myImage"/>
                     <div  className={classes.h1}>
                        <h1 >I'm Famila</h1>
-                       <a href="https://onedrive.live.com/?cid=EDC6AA2B359E85B6&id=EDC6AA2B359E85B6%2136980&parId=root&o=OneUp" rel="opener noreferrer" target="_blank">VIEW CV   <FaArrowCircleDown/></a>
+                       <a href="https://onedrive.live.com/?cid=EDC6AA2B359E85B6&id=EDC6AA2B359E85B6%2136980&parId=root&o=OneUp">VIEW CV   <FaArrowCircleDown/></a>
                     </div>
                 </div>
                 <div className={classes.image_container}>
@@ -28,16 +25,11 @@ import laptop1 from '../images/laptop1.jpg'
                     <div  className={classes.h2}> 
                     <h1> I love building</h1>
                     <h1>THINGS!!</h1>
-                    <a href="https://github.com/Famila-M" rel="opener noreferrer" target="_blank">VIEW PROJECTS   <GoProject/></a>
+                    <a href="https://github.com/Famila-M">VIEW PROJECTS   <GoProject/></a>
                     </div>
                 </div>
-                {/* <div className={classes.image_container}>
-                    <img className={classes.image} src={laptop1} alt="myImage"/>
-                    <div  className={classes.h1}> 
-                    </div>
-                </div> */}
+               
             </Carousel>
-          {/* </ScrollAnimation> */}
         </div>
      )
     }
