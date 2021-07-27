@@ -20,7 +20,7 @@ class Interest extends Component {
             <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible={true}>
               <div className={classes.app}>
                 <h3>Back End</h3>
-                <p>I have developed several backend projects, creating scalable architectures and well-designed REST APIs.<br /> I have also good grasp on Node and NoSQL(MongoDb)</p>
+                <p>I have developed several backend projects, creating scalable architectures and well-designed REST APIs.</p>
               </div>
             </ScrollAnimation>
             <ScrollAnimation offset="0" animateIn="fadeInLeft" duration='2.4' animateOnce="true" initiallyVisible={true}>
