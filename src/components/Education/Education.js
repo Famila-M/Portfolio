@@ -44,7 +44,7 @@ class Education extends Component {
                                                     <MdSchool />     
                                                 </div>
                                                 <div className={classes.label}>
-                                                <h2 >Under-Graduation</h2>
+                                                <h2 >Under-Graduation <span>2017-2020</span></h2>
                                                 <p>I have completed my Under-Graduation from Hindusthan College of Arts And Science with 80.11%.</p>
                                                 </div>
                                                 <div className={classes.timeline_entry_inner}><div  className={classes.timeline_icon_3||classes.color_none}></div></div>
