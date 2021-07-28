@@ -19,11 +19,11 @@ class Sidebar extends Component {
     
                 <div className="flip-card-back">
                     <ul className="sidebar-nav">
-                        <li className="sidebar-nav-icons"> <a href="https://github.com/Famila-M" class="fa fas fa-github fa-lg"> </a></li>
-                        <li className="sidebar-nav-icons"> <a href="https://linkedin.com/in/famila-m" class="fa fas fa-linkedin-square fa-lg"> </a></li>
-                        <li className="sidebar-nav-icons"> <a href="https://www.naukri.com/mnjuser/profile?id=&altresid" class="fa fas fa-share fa-lg"> </a></li>
-                        <li className="sidebar-nav-icons"> <a href="https://www.instagram.com/_bluekiddoo_/" class="fa fas fa-instagram fa-lg"> </a></li>
-                        <li className="sidebar-nav-icons"> <a href="familafami99@outlook.com" class="fa fas fa-envelope fa-lg"> </a></li>
+                        <li className="sidebar-nav-icons"> <a href="https://github.com/Famila-M" target="blank" rel="noreferrer" class="fa fas fa-github fa-lg"> </a></li>
+                        <li className="sidebar-nav-icons"> <a href="https://linkedin.com/in/famila-m" target="blank" rel="noreferrer" class="fa fas fa-linkedin-square fa-lg"> </a></li>
+                        <li className="sidebar-nav-icons"> <a href="https://www.naukri.com/mnjuser/profile?id=&altresid" target="blank" rel="noreferrer" class="fa fas fa-share fa-lg"> </a></li>
+                        <li className="sidebar-nav-icons"> <a href="https://www.instagram.com/_bluekiddoo_/" target="blank" rel="noreferrer" class="fa fas fa-instagram fa-lg"> </a></li>
+                        <li className="sidebar-nav-icons"> <a href="familafami99@outlook.com" target="blank" rel="noreferrer" class="fa fas fa-envelope fa-lg"> </a></li>
                     </ul>
                 </div>
               
