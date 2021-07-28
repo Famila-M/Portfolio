@@ -17,7 +17,7 @@ import Pencil from '../images/Pencil.jpg'
                     <img className={classes.image} src={Hello}  alt="myImage"/>
                     <div  className={classes.h1}>
                        <h1 >I'm Famila</h1>
-                       <a href="https://onedrive.live.com/?cid=EDC6AA2B359E85B6&id=EDC6AA2B359E85B6%2136980&parId=root&o=OneUp">VIEW CV   <FaArrowCircleDown/></a>
+                       <a href="https://drive.google.com/file/d/1QRCL9lmtG1mehr41OWXmF8kpLtGGIo_b/view?usp=sharing" target="blank" rel="noreferrer">VIEW CV   <FaArrowCircleDown/></a>
                     </div>
                 </div>
                 <div className={classes.image_container}>
@@ -25,7 +25,7 @@ import Pencil from '../images/Pencil.jpg'
                     <div  className={classes.h2}> 
                     <h1> I love building</h1>
                     <h1>THINGS!!</h1>
-                    <a href="https://github.com/Famila-M">VIEW PROJECTS   <GoProject/></a>
+                    <a href="https://github.com/Famila-M" target="blank" rel="noreferrer">VIEW PROJECTS   <GoProject/></a>
                     </div>
                 </div>
                
