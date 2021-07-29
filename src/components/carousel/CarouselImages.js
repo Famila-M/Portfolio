@@ -28,7 +28,6 @@ import Pencil from '../images/Pencil.jpg'
                     <a href="https://github.com/Famila-M" target="blank" rel="noreferrer">VIEW PROJECTS   <GoProject/></a>
                     </div>
                 </div>
-               
             </Carousel>
         </div>
      )
